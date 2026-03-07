@@ -6,6 +6,9 @@
     color: #404BBF;
 }
 
+.page-address .link:hover {
+    color: #404BBF;
+}
 
 .title {
     text-align: center;
