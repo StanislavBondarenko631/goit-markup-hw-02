@@ -6,51 +6,69 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #FFFFFF;
 }
 
 h1 {
     text-align: center;
     font-size: 56px;
+    line-height: 1.07;
+    color: #2E2F42;
 }
 
 h2 {
     text-align: center;
     font-size: 36px;
+    color: #2E2F42;
 }
 
 h3 {
     text-align: left;
     font-size: 20px;
+    color: #2E2F42;
 }
 
 .link {
     font-size: 12px;
+    line-height: 1.33;
 }
 
 .page-nav .link:hover,
 .page-nav .link:active,
 .page-nav .link:focus {
-    color: #404BBF;
+    color: #4D5AE5;
 }
 
 .page-address .link:hover,
 .page-address .link:focus {
-    color: #404BBF;
+    color: #4D5AE5;
 }
 
+.button,
 .button:hover {
     color: #404BBF;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .our-features {
     text-align: left;
     font-size: 36px;
+    color: #2E2F42;
+}
+
+.hero-background .hero-image-background {
+    background-color: #2E2F42;
 }
 
 .team {
     text-align: center;
     font-size: 20px;
+    color: #2E2F42;
 }
 
 .department {
