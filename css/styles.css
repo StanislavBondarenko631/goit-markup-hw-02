@@ -1,8 +1,5 @@
-span {
-    color: black;
-}
-
 body {
+
     font-family: Roboto, sans-serif;
     color: #434455;
     font-size: 16px;
@@ -13,11 +10,25 @@ header {
     background-color: #FFFFFF;
 }
 
+.logo-link {
+    text-transform: uppercase;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.logo-link .logo-link-span {
+    color: #2E2F42;
+}
+
 h1 {
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
-    color: #2E2F42;
+    color: #FFFFFF;
+    background-color: #2E2F42;
 }
 
 h2 {
@@ -35,6 +46,10 @@ h3 {
 .link {
     font-size: 12px;
     line-height: 1.33;
+}
+
+.page-nav .link {
+    color: #2E2F42;
 }
 
 .page-nav .link:hover,
@@ -61,6 +76,13 @@ h3 {
     color: #2E2F42;
 }
 
+.our-team {
+    text-align: center;
+    font-size: 36px;
+    color: #2E2F42;
+    background-color: #E7E9FC;
+}
+
 .hero-background .hero-image-background {
     background-color: #2E2F42;
 }
@@ -74,8 +96,3 @@ h3 {
 .department {
     text-align: center;
 }
-
-
-
-/* .logo-link:hover,
-.logo-link:focus {} */
