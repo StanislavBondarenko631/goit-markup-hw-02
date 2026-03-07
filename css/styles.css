@@ -2,10 +2,10 @@
 .logo-link:focus {} */
 
 .page-nav .link:hover,
-.page-nav .link:active,
-.page-nav .link:focus {
+.page-nav .link:active {
     color: #404BBF;
 }
+
 
 .title {
     text-align: center;
