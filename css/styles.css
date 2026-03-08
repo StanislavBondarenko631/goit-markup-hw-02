@@ -3,6 +3,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    letter-spacing: 0.32px;
     line-height: 1.5;
     color: #434455;
 
@@ -14,22 +15,39 @@ header {
 
 h1 {
     text-align: center;
+    font-weight: 700;
     font-size: 56px;
+    letter-spacing: 1.12px;
     line-height: 1.07;
     color: #FFFFFF;
-    background-color: #2E2F42;
 }
 
 h2 {
     text-align: center;
     font-size: 36px;
     color: #2E2F42;
+
 }
 
 h3 {
     text-align: left;
+    font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.4px;
     color: #2E2F42;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+button:hover {
+    background-color: #404BBF;
 }
 
 .logo-link {
@@ -77,39 +95,40 @@ h3 {
     text-decoration: underline;
 }
 
-.link {
-    font-size: 12px;
-    line-height: 1.33;
-    text-decoration: none;
-}
-
-.page-address .link:hover,
-.page-address .link:focus {
-    color: #4D5AE5;
-}
-
-.button,
-.button:hover {
-    color: #404BBF;
-    font-size: 16px;
-    line-height: 1.5;
+.hero-background {
+    background-color: #2E2F42;
 }
 
 .our-features {
     text-align: left;
+    font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.72px;
     color: #2E2F42;
+}
+
+.our-features-description {
+    list-style-type: none;
+}
+
+.section-our-team {
+    background-color: #F4F4FD;
+}
+
+.list-our-team {
+    list-style-type: none;
 }
 
 .our-team {
     text-align: center;
+    font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.72px;
     color: #2E2F42;
-    background-color: #E7E9FC;
 }
 
-.hero-background .hero-image-background {
-    background-color: #2E2F42;
+.team-card-backgrounds {
+    background-color: #ffff;
 }
 
 .team {
