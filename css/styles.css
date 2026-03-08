@@ -62,8 +62,19 @@ h3 {
     text-decoration: underline;
 }
 
-.page-address {
+.page-address,
+.link-address {
+    font-weight: 400;
+    color: #434455;
     list-style-type: none;
+    text-decoration: none;
+}
+
+.page-address .link-address:hover,
+.page-address .link-address:active,
+.page-address .link-address:focus {
+    color: #404BBF;
+    text-decoration: underline;
 }
 
 .link {
