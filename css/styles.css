@@ -24,7 +24,9 @@ h1 {
 
 h2 {
     text-align: center;
+    font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.72px;
     color: #2E2F42;
 
 }
@@ -120,24 +122,23 @@ button:hover {
     list-style-type: none;
 }
 
-.our-team {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.72px;
-    color: #2E2F42;
-}
-
 .team-card-backgrounds {
     background-color: #ffff;
 }
 
 .team {
     text-align: center;
+    font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.4px;
     color: #2E2F42;
 }
 
 .department {
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
 }
