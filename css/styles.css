@@ -1,144 +1,163 @@
 body {
-
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.32px;
-    line-height: 1.5;
-    color: #434455;
-
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 header {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 1.12px;
-    line-height: 1.07;
-    color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 1.12px;
+  line-height: 1.07;
+  color: #ffffff;
 }
 
 h2 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.72px;
-    color: #2E2F42;
-
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.72px;
+  color: #2e2f42;
 }
 
 h3 {
-    text-align: left;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.4px;
-    color: #2E2F42;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 button {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 
 button:hover {
-    background-color: #404BBF;
+  background-color: #404bbf;
+}
+
+footer {
+  background-color: #2e2f42;
 }
 
 .logo-link {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
 }
 
 .logo-link .logo-link-span {
-    color: #2E2F42;
+  color: #2e2f42;
 }
 
 .page-nav,
 .link-nav {
-    font-weight: 500;
-    color: #2E2F42;
-    list-style-type: none;
-    text-decoration: none;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #2e2f42;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .page-nav .link-nav:hover,
 .page-nav .link-nav:active,
 .page-nav .link-nav:focus {
-    color: #404BBF;
-    text-decoration: underline;
+  color: #404bbf;
+  text-decoration: underline;
 }
 
 .page-address,
 .link-address {
-    font-weight: 400;
-    color: #434455;
-    list-style-type: none;
-    text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #434455;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .page-address .link-address:hover,
 .page-address .link-address:active,
 .page-address .link-address:focus {
-    color: #404BBF;
-    text-decoration: underline;
+  color: #404bbf;
+  text-decoration: underline;
 }
 
 .hero-background {
-    background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .our-features {
-    text-align: left;
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.72px;
-    color: #2E2F42;
+  text-align: left;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.72px;
+  color: #2e2f42;
 }
 
 .our-features-description {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .section-our-team {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .list-our-team {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .team-card-backgrounds {
-    background-color: #ffff;
+  background-color: #ffff;
 }
 
 .team {
-    text-align: center;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.4px;
-    color: #2E2F42;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 .department {
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    color: #434455;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #434455;
+}
+
+.list-our-portfolio {
+  list-style-type: none;
+}
+
+.logo-link-span-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
