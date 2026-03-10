@@ -2,7 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
   background-color: #fff;
@@ -12,42 +12,38 @@ header {
   background-color: #ffffff;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 
-nav a {
+.link-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:active,
-nav a:focus {
+.link-nav:hover,
+.link-nav:active,
+.link-nav:focus {
   color: #404bbf;
 }
 
-address ul {
-  list-style-type: none;
-}
-
-address a {
+.link-address {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
 
-address a:hover,
-address a:active,
-address a:focus {
+.link-address:hover,
+.link-address:active,
+.link-address:focus {
   color: #404bbf;
 }
 
@@ -55,7 +51,7 @@ h1 {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.07;
   color: #ffffff;
 }
@@ -64,7 +60,8 @@ h2 {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.111;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -72,7 +69,8 @@ h3 {
   text-align: left;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
@@ -83,7 +81,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 
 button:hover,
@@ -102,11 +100,11 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
 }
 
-.logo-link .logo-link-span {
+.logo-link-span {
   color: #2e2f42;
 }
 
@@ -118,20 +116,13 @@ footer {
   text-align: left;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.111;
   color: #2e2f42;
-}
-
-.our-features-description {
-  list-style-type: none;
 }
 
 .section-our-team {
   background-color: #f4f4fd;
-}
-
-.list-our-team {
-  list-style-type: none;
 }
 
 .team-card-backgrounds {
@@ -142,7 +133,8 @@ footer {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
@@ -151,7 +143,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -165,4 +157,8 @@ footer {
 
 .footer-text {
   color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
